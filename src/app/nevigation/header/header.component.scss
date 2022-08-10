@@ -1,4 +1,5 @@
 header{
+
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -7,8 +8,10 @@ header{
 }
 nav{
     display: flex;
-    width: inherit;
+    width: 100vw;
     justify-content: space-between;
+    background-color: #009a88;
+    color: #fff;
 }
 .nav-title{
     h1{
@@ -29,6 +32,8 @@ nav{
     }
 }
 .nav-menu{
+    position: sticky;
+    top: 0px;
     ul{
         display: flex;
         list-style-type: none;
