@@ -1,0 +1,59 @@
+.card{
+    width: 100vw;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .profile-photo{
+        width: 4rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: inherit;
+        }
+    }
+
+    .short-desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: inherit;
+        gap: 0.5rem;
+        padding-inline-end: 1rem;
+
+        .about{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+
+            .title{
+                font-size: 1.3rem;
+                font-weight: 600;
+            }
+            
+            .time{
+                align-self: flex-end;
+                color: rgba(128, 128, 128, 0.7)
+            }
+        }
+
+        .desc{
+            color: rgba(128, 128, 128, 0.7);
+        }
+    }
+}
+
+.floating-chat-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+    background-color: #009a88;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 100%;
+}
