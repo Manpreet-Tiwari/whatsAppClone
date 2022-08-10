@@ -1,8 +1,6 @@
 .card{
     width: 100vw;
     display: flex;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     .profile-photo{
         width: 4rem;
         padding: 1rem;
@@ -52,7 +50,7 @@
     padding: 1rem;
     color: #fff;
     background-color: #009a88;
-    position: absolute;
+    position: fixed;
     bottom: 1rem;
     right: 1rem;
     border-radius: 100%;
