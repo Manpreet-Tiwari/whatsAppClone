@@ -35,6 +35,8 @@ nav{
         flex-wrap: nowrap;
         padding-inline-start: 0;
         width: inherit;
+        margin-bottom: 0;
+
 
         :first-child{
             width: max-content;
@@ -45,10 +47,11 @@ nav{
             display: flex;
             justify-content: center;
             width: inherit;
+            padding-bottom: 1rem;
         }
 
-        // li:not(:first-child){
-        //     width: max-content;
-        // }
     }
+}
+.active{
+    border-bottom: 3px solid #fff;
 }
